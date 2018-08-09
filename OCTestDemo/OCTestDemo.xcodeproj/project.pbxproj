@@ -14,23 +14,8 @@
 		2E655153210C2651007B1251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E655151210C2651007B1251 /* LaunchScreen.storyboard */; };
 		2E655156210C2651007B1251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E655155210C2651007B1251 /* main.m */; };
 		2E655190210C3D33007B1251 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65518F210C3D33007B1251 /* File.swift */; };
-		2E655197210C4A4F007B1251 /* SwiftHello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E655196210C4A4F007B1251 /* SwiftHello.framework */; };
-		2E655198210C4A4F007B1251 /* SwiftHello.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E655196210C4A4F007B1251 /* SwiftHello.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E7B5CE6211C7FE600C43DE2 /* SwiftHello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7B5CE5211C7FE600C43DE2 /* SwiftHello.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2E655160210C2670007B1251 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2E655198210C4A4F007B1251 /* SwiftHello.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E655143210C264E007B1251 /* OCTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +31,7 @@
 		2E65518E210C3D32007B1251 /* OCTestDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCTestDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		2E65518F210C3D33007B1251 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2E655196210C4A4F007B1251 /* SwiftHello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7B5CE5211C7FE600C43DE2 /* SwiftHello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E655197210C4A4F007B1251 /* SwiftHello.framework in Frameworks */,
+				2E7B5CE6211C7FE600C43DE2 /* SwiftHello.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +52,7 @@
 				2E655196210C4A4F007B1251 /* SwiftHello.framework */,
 				2E655145210C264E007B1251 /* OCTestDemo */,
 				2E655144210C264E007B1251 /* Products */,
+				2E7B5CE4211C7FE600C43DE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +82,14 @@
 			path = OCTestDemo;
 			sourceTree = "<group>";
 		};
+		2E7B5CE4211C7FE600C43DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B5CE5211C7FE600C43DE2 /* SwiftHello.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,7 +100,6 @@
 				2E65513F210C264E007B1251 /* Sources */,
 				2E655140210C264E007B1251 /* Frameworks */,
 				2E655141210C264E007B1251 /* Resources */,
-				2E655160210C2670007B1251 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
